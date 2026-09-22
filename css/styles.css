@@ -1,3 +1,88 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+img{
+  max-width: 100%;
+}
+
+
+.navbar{
+  display: flex; /*esto nose xdddd*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items{
+  display: flex;
+}
+.nav-items li{
+  list-style: none;
+  margin-left: 1.5rem;
+}
+.nav-items li a{
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
+
+.container{
+  width: 140rem;
+  margin: 0 auto;
+  
+}
+.logo-navbar{
+  width: 10rem;
+  height: 8rem;
+}
+
+.btn{
+  text-decoration: none;
+  color: #003366;
+  padding: 1.5rem 2rem;
+  border-radius: 9rem;
+}
+.btn-amarillo{
+  background-color: #FFAA00;
+}
+
+
+.hero{
+  background-image: url(../img/banner.png);
+  height: 80rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.subtitulo{
+  color: #FFAA00;
+  font-size: 2.5rem;
+}
+
+.texto-blanco{
+  color: white;
+}
+
+.texto-verde{
+  color: #A3D9A5;
+}
+
+.btn-blanco{
+  color: white;
+  border: solid white;
+}
+
+.texto-header{
+  padding: 10rem 0;
+}
+
+.texto-header p, h1, h2, div{
+  margin: 4rem 0;
 }
