@@ -13,7 +13,7 @@
   <body>
     <!--Inicio Header-->
     <header>
-      <nav class="navbar conteiner">
+      <nav class="navbar container">
         <a href="#">
           <img class="logo-navbar" src="img/logo.png" alt="Logo EIRP+" />
         </a>
@@ -118,72 +118,55 @@
       <!--Fin valores-->
 
       <!--Inicio nuestros servicios-->
-      <section>
-        <header>
-          <p>SERVICIOS</p>
-
-          <h2>Nuestros servicios</h2>
-
-          <p>
+      <section class="seccion-servicios container">
+        <header class="servicios-cabecera">
+          <p class="etiqueta-naranja">SERVICIOS</p>
+          <h2 class="titulo-azul">Nuestros servicios</h2>
+          <p class="servicios-bajada">
             Soluciones pensadas para empresas que necesitan continuidad,
             seguridad y eficiencia en sus operaciones.
           </p>
         </header>
 
-        <div>
-          <article>
-            <div>☀</div>
-
+        <div class="servicios-grid">
+          <article class="tarjeta-servicio">
+            <div class="icono-verde">☀</div>
             <h3>Energía y paneles solares</h3>
-
             <p>
               Limpieza y mantenimiento de plantas fotovoltaicas para mejorar la
               captación de energía y proteger los equipos.
             </p>
-
             <ul>
               <li>Limpieza técnica de paneles</li>
-
               <li>Cuidado de superficies</li>
-
               <li>Mejora del rendimiento energético</li>
             </ul>
           </article>
 
-          <article>
-            <div>⚙</div>
-
+          <article class="tarjeta-servicio">
+            <div class="icono-verde">⚙</div>
             <h3>Mantenimiento y obras civiles</h3>
-
             <p>
               Apoyo en reparaciones, pintura, gasfitería, electricidad y obras
               menores para instalaciones industriales.
             </p>
-
             <ul>
               <li>Reparaciones locativas</li>
-
               <li>Pintura industrial</li>
-
               <li>Instalaciones eléctricas básicas</li>
             </ul>
           </article>
 
-          <article>
-            <div>+</div>
-
+          <article class="tarjeta-servicio">
+            <div class="icono-verde">+</div>
             <h3>Aseo industrial</h3>
-
             <p>
               Limpieza profunda de plantas, bodegas, talleres, oficinas y
               espacios de alta exigencia operacional.
             </p>
-
             <ul>
               <li>Limpieza de infraestructura</li>
-
               <li>Habitabilidad minera</li>
-
               <li>Desengrasado y despeje de áreas críticas</li>
             </ul>
           </article>
@@ -191,81 +174,94 @@
       </section>
       <!--Fin nuestros servicios-->
 
-      <!--Inicio cobertura-->
-      <p>Cobertura y seguridad</p>
-
+     <!--Inicio cobertura-->
+<section id="cobertura" class="seccion-cobertura">
+  <div class="container contenedor-cobertura">
+    
+    
+    <div class="cobertura-info">
+      <p class="etiqueta-naranja">COBERTURA Y SEGURIDAD</p>
       <h2>Operación en el Norte Grande</h2>
-
-      <p>
+      <p class="cobertura-desc">
         EIRP+ cuenta con despliegue operativo en zonas estratégicas para atender
         requerimientos de minería, industria y servicios privados.
       </p>
 
-      <ul>
+      <ul class="lista-check">
         <li>Operaciones con enfoque cero accidentes.</li>
         <li>Personal calificado y supervisión preventiva.</li>
         <li>Cobertura en Arica, Iquique, Calama y Antofagasta.</li>
       </ul>
+    </div>
 
+    
+    <div class="tarjeta-zonas">
       <h3>Zonas de atención</h3>
-
       <p>
         Prestamos servicios en distintas ciudades del norte de Chile y otras
         zonas según requerimiento del cliente.
       </p>
 
-      <span>Arica</span>
-      <span>Iquique</span>
-      <span>Calama</span>
-      <span>Antofagasta</span>
-      <span>Santiago</span>
-      <!--Fin Cobertura-->
+      <div class="contenedor-pills">
+        <span class="pill-ciudad">Arica</span>
+        <span class="pill-ciudad">Iquique</span>
+        <span class="pill-ciudad">Calama</span>
+        <span class="pill-ciudad">Antofagasta</span>
+        <span class="pill-ciudad">Santiago</span>
+      </div>
+    </div>
 
-      <!--Inicio contacto-->
-      <p>Contacto</p>
+  </div>
+</section>
+<!--Fin Cobertura-->
 
-      <h2>Solicita una cotización</h2>
+<!-- Contactos -->
+<section id="contacto" class="seccion-contacto container">
+  <div class="contacto-info">
+    <p class="etiqueta-naranja">CONTACTO</p>
+    <h2 class="titulo-azul">Solicita una cotización</h2>
+    <p class="contacto-desc">
+      Completa el formulario y cuéntanos qué tipo de servicio necesita tu
+      empresa.
+    </p>
 
-      <p>
-        Completa el formulario y cuéntanos qué tipo de servicio necesita tu
-        empresa.
-      </p>
-
+    <div class="tarjeta-datos">
       <p><strong>Teléfono:</strong> (+56) 9 8835 5559</p>
       <p><strong>Email:</strong> Empresas.higiene.eirp@gmail.com</p>
       <p><strong>Dirección:</strong> José Antonio Aldunate 2811, Arica</p>
+    </div>
+  </div>
 
-      <form>
-        <h3>Datos de contacto</h3>
+  <form class="formulario-contacto">
+    <div class="campo-form">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
+    </div>
 
-        <div>
-          <label for="nombre">Nombre</label>
-          <input id="nombre" type="text" placeholder="Ingresa tu nombre" />
-        </div>
+    <div class="campo-form">
+      <label for="empresa">Empresa</label>
+      <input id="empresa" type="text" placeholder="Nombre de la empresa" />
+    </div>
 
-        <div>
-          <label for="empresa">Empresa</label>
-          <input type="text" placeholder="Nombre de la empresa" />
-        </div>
+    <div class="campo-form">
+      <label for="telefono">Teléfono</label>
+      <input id="telefono" type="tel" placeholder="Ej: +56 9 1234 5678" />
+    </div>
 
-        <div>
-          <label for="telefono">Teléfono</label>
-          <input type="tel" placeholder="Ej: +56 9 1234 5678" />
-        </div>
+    <div class="campo-form">
+      <label for="email">Correo electrónico</label>
+      <input id="email" type="email" placeholder="correo@empresa.cl" />
+    </div>
 
-        <div>
-          <label for="email">Correo electrónico</label>
-          <input type="email" placeholder="correo@empresa.cl" />
-        </div>
+    <div class="campo-form">
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" rows="5" placeholder="Describe tu requerimiento"></textarea>
+    </div>
 
-        <div>
-          <label for="mensaje">Mensaje</label>
-          <textarea rows="5" placeholder="Describe tu requerimiento"></textarea>
-        </div>
-
-        <button type="submit">Enviar solicitud</button>
-      </form>
-      <!--Fin contacto-->
+    <button type="submit" class="btn-enviar">Enviar solicitud</button>
+  </form>
+</section>
+     
     </main>
 
     <!--Inicio footer-->

@@ -34,7 +34,7 @@ img {
   color: #003366;
   font-weight: bold;
 }
-.container {
+.container {        /* esto es muy importanteeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
   width: 140rem; 
   margin: 0 auto;
 }
@@ -207,3 +207,278 @@ footer{
 .contenido-inferior p{
   text-align: center;
 }
+/* Fin footer */
+
+
+
+
+
+/* --- SECCIÓN SERVICIOS --- */
+.seccion-servicios {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.servicios-cabecera {
+  margin-bottom: 4rem;
+}
+
+.titulo-azul {
+  color: #003366; 
+  font-size: 3.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.servicios-bajada {
+  color: #666666;
+  font-size: 1.5rem;
+  max-width: 60rem;
+  line-height: 1.5;
+}
+
+
+.servicios-grid {
+  display: flex;
+  gap: 3rem;              
+  align-items: stretch;  
+}
+
+
+.tarjeta-servicio {
+  flex: 1;                 
+  background-color: #ffffff;
+  border: 1px solid #D9D9D9; 
+  border-radius: 1.8rem;     
+  padding: 3.5rem 2.5rem;   
+}
+
+.icono-verde {
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: #A3D9A5; 
+  color: #003366;           
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  border-radius: 1rem;      
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+
+.tarjeta-servicio h3 {
+  color: #003366;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.tarjeta-servicio p {
+  color: #666666;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+
+.tarjeta-servicio ul {
+  padding-left: 2rem;
+  margin: 0;
+}
+
+.tarjeta-servicio li {
+  color: #555555;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+/* FIN */
+
+/* --- SECCION COBERTURA --- */
+.seccion-cobertura {
+  background-color: #D9D9D9;
+  padding: 8rem 0;
+}
+
+.contenedor-cobertura {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.cobertura-info {
+  flex: 1;
+}
+
+.cobertura-info h2 {
+  color: #003366;
+  font-size: 3.5rem;
+  margin: 1.5rem 0 2rem 0;
+  line-height: 1.2;
+}
+
+.cobertura-desc {
+  color: #444444;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  max-width: 50rem;
+}
+
+.lista-check {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-check li {
+  color: #333333;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.lista-check li::before {
+  content: "✓";
+  color: #003366;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+
+.tarjeta-zonas {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 4rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  max-width: 48rem;
+}
+
+.tarjeta-zonas h3 {
+  color: #003366;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.tarjeta-zonas p {
+  color: #555555;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+
+.contenedor-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.pill-ciudad {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+
+
+/* Seccion contactos */
+.seccion-contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.contacto-info {
+  flex: 1;
+}
+
+.contacto-desc {
+  color: #555555;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 3.5rem;
+  max-width: 45rem;
+}
+
+.tarjeta-datos {
+  background-color: #D9D9D9;
+  padding: 3.5rem;
+  border-radius: 1.5rem;
+  max-width: 45rem;
+}
+
+.tarjeta-datos p {
+  color: #333333;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.tarjeta-datos p:last-child {
+  margin-bottom: 0;
+}
+
+.formulario-contacto {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #E0E0E0;
+  border-radius: 1.5rem;
+  padding: 4rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.campo-form {
+  margin-bottom: 2rem;
+}
+
+.campo-form label {
+  display: block;
+  color: #003366;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.campo-form input,
+.campo-form textarea {
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  border: 1px solid #D9D9D9;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  outline: none;
+  background-color: #FAFAFA;
+}
+
+.campo-form input:focus,
+.campo-form textarea:focus {
+  border-color: #FFAA00;
+}
+
+.campo-form textarea {
+  resize: vertical;
+}
+
+.btn-enviar {
+  width: 100%;
+  background-color: #FFAA00;
+  color: #003366;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1.4rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Fin contactos */
